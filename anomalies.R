@@ -22,7 +22,7 @@ col.np <- "deepskyblue2"
 col.pt <- "sienna4"
 col.nt <- "sienna2"
 
-size.smooth <- 0.9
+size.smooth <- 0.65
 span.smooth <- 0.4
 color.smooth <- "Loess smoothing"
 
