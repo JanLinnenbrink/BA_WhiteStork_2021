@@ -71,6 +71,7 @@ prec.p <- ggplot(data = prec.mean.y, aes(x = Jahr,
     size = size.smooth,
     se = F,
     span = span.smooth,
+    method = "loess",
     aes(color = color.smooth)
   ) +
   scale_fill_manual(values = c(positive = col.pp, negative = col.np)) +
@@ -121,6 +122,7 @@ temp.p <- ggplot(data = temp.mean.y, aes(x = Jahr,
     size = size.smooth,
     se = F,
     span = span.smooth,
+    method = "loess",
     aes(color = color.smooth)
   ) +
   scale_fill_manual(values = c(positive = col.pt, negative = col.nt)) +
