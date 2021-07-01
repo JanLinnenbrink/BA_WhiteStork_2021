@@ -1,1 +1,2 @@
-abc
+Hier sind die Codes für die Habitatmodellierung abgespeichdert.
+a) die Modellierung der potenziellen Verbreitung un
